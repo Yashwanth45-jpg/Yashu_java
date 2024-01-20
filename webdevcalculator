@@ -1,1 +1,46 @@
-C:\Users\yashwanth.m\web devlopment\claculator
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculator welcome</h1>
+    <div class="king">
+        <div class="numbut">
+                <input type="text" id="display"  readonly>
+                <div id="operator">
+                    <button onclick="collect('+')">+</button>
+                    <button onclick="collect('-')">-</button>
+                    <button onclick="collect('*')">*</button>
+                    <button onclick="collect('/')">/</button>
+                </div>
+                <div id="top">
+                    <button onclick="collect('7')">7</button>
+                    <button onclick="collect('8')">8</button>
+                    <button onclick="collect('9')">9</button>
+                    <button style="background-color: red;" style="border: red;" onclick="clearall()">C</button>
+                </div>
+                <div id="mid">
+                    <button onclick="collect('4')">4</button>
+                    <button onclick="collect('5')">5</button>
+                    <button onclick="collect('6')">6</button>
+                    <button onclick="collect('%')">%</button>
+                </div>
+                <div id="bottom">   
+                    <button onclick="collect('1')">1</button>
+                    <button onclick="collect('2')">2</button>
+                    <button onclick="collect('3')">3</button>
+                    <button onclick="calculate()">=</button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+   <script src="hello.js"></script>
+</body>
+</html>
